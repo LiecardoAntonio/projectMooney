@@ -1,0 +1,87 @@
+body {
+  height: 1vmax;
+  margin: 0;
+}
+
+* {
+  font-size: 1vmax;
+  font-family: cursive;
+  display: block;
+}
+
+.app-info {
+  border: none;
+  justify-content: start;
+}
+
+.form-container {
+  border: 1px solid #5C8374;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin: 150px auto;
+  padding: 2vmax;
+  border-radius: 10px;
+}
+
+p, input {
+  margin: 0 0 0.5vmax 0;
+}
+
+.exception {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: #1B4242;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  color: black;
+  width: 100%;
+}
+
+
+button {
+  width: 100%;
+  background-color: #5C8374;
+}
+
+.signup-button {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-button>button {
+  font-size: 1vmax;
+  width: 100%;
+}
+
+.remember-me {
+  display: flex;
+  justify-content: center;
+  margin: 2vh 2vw;
+}
+
+.remember-me>* {
+  margin: 0 1vw;
+
+}
+
+.custom-alert-success {
+  background-color: rgb(140, 250, 177);
+  padding: 1vmax;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(18, 180, 10);
+}
+
+.custom-alert-danger {
+  background-color: rgb(221, 143, 143);
+  padding: 1vmax;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(192, 20, 20);
+}

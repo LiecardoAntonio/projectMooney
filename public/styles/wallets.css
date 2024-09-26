@@ -1,0 +1,73 @@
+.wallet {
+  background-color: #5C8374;
+}
+
+button {
+  background-color: #5C8374;
+  border: 1px solid white;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+}
+
+.card {
+  margin: 2vh 3vw;
+  justify-content: center;
+  max-width: 30vw;
+}
+
+.card>div>p {
+  color: black;
+  margin: 0;
+}
+
+.card>div>img {
+  width: 100%;
+}
+
+.card-bottom {
+  padding: 1vh 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet-name {
+  font-size: 1vmax;
+}
+
+.detail-button>button {
+  width: 5vw;
+  height: 5vh;
+  font-size: 1vmax;
+}
+
+.no-wallet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 40vw;
+  top: 50vh;
+  position: fixed;
+}
+
+.custom-alert-success {
+  background-color: rgb(140, 250, 177);
+  padding: 1vmax;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(18, 180, 10);
+}
+
+.custom-alert-danger {
+  background-color: rgb(221, 143, 143);
+  padding: 1vmax;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(192, 20, 20);
+}

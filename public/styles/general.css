@@ -1,0 +1,143 @@
+* {
+  color: white;
+  font-family: cursive;
+}
+
+body {
+  background-color: rgb(6, 32, 39);
+}
+
+.app-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1vmax 0;
+  border-bottom: 2px solid #1B4242;
+  justify-content: center;
+}
+
+.app-logo {
+  max-height: 3vmax;
+  max-width: 3vw;
+  width: 100%;
+  margin: 0 0.5vmax;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 2vmax;
+  font-weight: bold;
+  margin: 0; 
+  text-align: left;
+  /* by default has margin 0.67 top and bot */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(220, 219, 219);
+  font-size: 1.2rem;
+}
+
+body {
+  margin: 0;
+  /* height: 1000px; */
+}
+
+/* navbar */
+
+.navbar {
+  background-color: #092635;
+  display: flex;
+  flex-direction: column;
+  min-width: 15vmax;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  justify-content: start;
+  border-right: 1px solid #1B4242;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0;
+}
+
+.navbar-menu>ul:nth-child(2)
+{
+  position: absolute;
+  bottom: 0;
+}
+
+ul>li {
+  list-style: none;
+  margin: 1vh 0;
+  min-width: 15vmax;
+  padding: 3px;
+  border-radius: 15px;
+  text-align: left;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+ul>li>a {
+  font-size: 1vmax;
+  min-width: 8vmax;
+}
+
+ul>li:active {
+  background-color: #9EC8B9;
+}
+
+/* end of navbar */
+
+.content {
+  padding-left: 15vmax;
+  background-color: rgb(6, 32, 39);
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  left: 15vmax;
+  right: 0;
+  padding: 1.3vmax 2vmax;
+  position: fixed;
+  z-index: 3;
+  background-color: #092635;
+  border: 0.5px solid #1B4242;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile>p {
+  text-decoration: underline;
+}
+
+.profile-picture {
+  max-height: 3vmax;
+  max-width: 3vw;
+  margin: 0 0.5vmax;
+}
+
+.username {
+  margin: 0 0.5vmax;
+}
+
+/* end of header */
+
+
+/* wallet information (main content) */
+.wallet-info {
+  padding: 7vmax 1vmax;
+}
